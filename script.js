@@ -53,6 +53,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // === Interactive UI Sounds ===
+    const clickSound = new Audio('click.mp3');
+    clickSound.volume = 0.4; // Soft volume for better UX
+
+    const playClick = () => {
+        clickSound.currentTime = 0;
+        clickSound.play().catch(err => console.log('Audio play blocked by browser:', err));
+    };
+
+    // Attach to interactive elements
+    const interactiveElements = document.querySelectorAll('button, a, .gallery-item, .timeline-item, .mobile-toggle, .stat-card');
+    interactiveElements.forEach(el => {
+        el.addEventListener('click', playClick);
+    });
+
     // === Navbar Scroll Effect ===
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
