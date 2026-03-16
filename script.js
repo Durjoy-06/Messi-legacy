@@ -53,19 +53,45 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // === Interactive UI Sounds ===
+    // === Interactive UI Sounds (Robust Implementation) ===
     const clickSound = new Audio('click.mp3');
-    clickSound.volume = 0.4; // Soft volume for better UX
+    clickSound.volume = 0.8; // Increased from 0.4 for better visibility
+    let isAudioUnlocked = false;
 
     const playClick = () => {
+        if (!clickSound) return;
         clickSound.currentTime = 0;
-        clickSound.play().catch(err => console.log('Audio play blocked by browser:', err));
+        clickSound.play().catch(err => {
+            console.warn('Audio play failed:', err);
+        });
     };
 
-    // Attach to interactive elements
-    const interactiveElements = document.querySelectorAll('button, a, .gallery-item, .timeline-item, .mobile-toggle, .stat-card');
-    interactiveElements.forEach(el => {
-        el.addEventListener('click', playClick);
+    // Unlock audio context on first user interaction
+    const unlockAudio = () => {
+        if (isAudioUnlocked) return;
+        clickSound.play()
+            .then(() => {
+                clickSound.pause();
+                clickSound.currentTime = 0;
+                isAudioUnlocked = true;
+                // Once unlocked, we can remove the listeners
+                document.removeEventListener('mousedown', unlockAudio);
+                document.removeEventListener('touchstart', unlockAudio);
+                document.removeEventListener('keydown', unlockAudio);
+            })
+            .catch(err => console.log('Unlock failed:', err));
+    };
+
+    document.addEventListener('mousedown', unlockAudio);
+    document.addEventListener('touchstart', unlockAudio);
+    document.addEventListener('keydown', unlockAudio);
+
+    // Global delegation for interactive elements
+    document.addEventListener('click', (e) => {
+        const target = e.target.closest('button, a, .gallery-item, .timeline-item, .mobile-toggle, .stat-card, .p-dot, .cta-btn, .bio-image');
+        if (target) {
+            playClick();
+        }
     });
 
     // === Navbar Scroll Effect ===
