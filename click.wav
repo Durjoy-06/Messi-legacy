@@ -111,13 +111,13 @@
   <meta name="route-pattern" content="/:user_id/:repository/raw/*name(/*path)" data-turbo-transient>
   <meta name="route-controller" content="blob" data-turbo-transient>
   <meta name="route-action" content="raw" data-turbo-transient>
-  <meta name="fetch-nonce" content="v2:be246c2d-fede-7f08-dd5a-77bf52c63359">
+  <meta name="fetch-nonce" content="v2:349b85e5-25c2-d5a7-376f-e5003ea9e9cb">
 
     
   <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-  <meta name="request-id" content="F410:1BF397:8723C6:934F70:69B7D284" data-turbo-transient="true" /><meta name="html-safe-nonce" content="2e180f93441cfb84ba6122413ba43d68c2fe1b8fe7b16377b4817cd79de765f0" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkY0MTA6MUJGMzk3Ojg3MjNDNjo5MzRGNzA6NjlCN0QyODQiLCJ2aXNpdG9yX2lkIjoiNzEyOTEwMjM3NDAwMDkwNjg4NSIsInJlZ2lvbl9lZGdlIjoic291dGhlYXN0YXNpYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="dc4309c1c2b45c81b0f5f673144718b0715b47d3e6197682a13e9370f03fb004" data-turbo-transient="true" />
+  <meta name="request-id" content="DD73:32E45A:8E4B60:9B0953:69B7D6DA" data-turbo-transient="true" /><meta name="html-safe-nonce" content="4241026a42eea82f0196e74a4d0017d28045e7f836cee180a25c2e99fe8fc24c" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6bnVsbCwicmVxdWVzdF9pZCI6IkRENzM6MzJFNDVBOjhFNEI2MDo5QjA5NTM6NjlCN0Q2REEiLCJ2aXNpdG9yX2lkIjoiNjM0NTgwMzMyMzkzNjMzMTQ4MiIsInJlZ2lvbl9lZGdlIjoic291dGhlYXN0YXNpYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="d8dda703e7663a064e8fc696a6203a9269298620be52c9433d958b7067dc7853" data-turbo-transient="true" />
 
 
 
@@ -125,7 +125,7 @@
   <meta name="github-keyboard-shortcuts" content="copilot" data-turbo-transient="true" />
   
 
-  <meta name="selected-link" value="/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3" data-turbo-transient>
+  <meta name="selected-link" value="/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav" data-turbo-transient>
   <link rel="assets" href="https://github.githubassets.com/">
 
     <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
@@ -157,7 +157,7 @@
 
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3" />
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav" />
 
       <meta property="og:url" content="https://github.com">
   <meta property="og:site_name" content="GitHub">
@@ -212,7 +212,7 @@
 
 
 
-      <link rel="canonical" href="https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3" data-turbo-transient>
+      <link rel="canonical" href="https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav" data-turbo-transient>
 
 
     <meta name="turbo-body-classes" content="logged-out env-production page-responsive min-height-full d-flex flex-column">
@@ -314,19 +314,19 @@
 
       <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
           <a
-            href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.mp3"
+            href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.wav"
             class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit js-prevent-focus-on-mobile-nav"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f7f77dae44de4b498b47ebd6d072c3dff1d5db9344a0158031ea8f4980166eca"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0d7749d0b43dbe7b692ecbfb3a9026109e7ad640ba9c17d00922343817f0f535"
             data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
           >
             Sign in
           </a>
               <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-93e14c87-08e6-42e2-b1e5-6b2180fb635f" aria-labelledby="tooltip-9a3df0bc-1547-4c24-bc7d-ea1cfa1d6e9b" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-76568f85-0e9f-4fe4-b9ff-62ae26793847" aria-labelledby="tooltip-16616b39-8d8f-4ba9-9ca7-84582a3ea325" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-9a3df0bc-1547-4c24-bc7d-ea1cfa1d6e9b" for="icon-button-93e14c87-08e6-42e2-b1e5-6b2180fb635f" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-16616b39-8d8f-4ba9-9ca7-84582a3ea325" for="icon-button-76568f85-0e9f-4fe4-b9ff-62ae26793847" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.31c3d131c6277e78.module.css" />
@@ -374,7 +374,7 @@
                 
 
 
-<qbsearch-input class="search-input" data-scope="" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="wh2LIyyR3dfpIfUF_v1OFo1krPqBCGWcwyUuPGtceBNP75h6AmRCND9hfWaSbSOAJtR5ZHnuQfwiHgedyGu2ig" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="6_MK3lYNnfvuUD48A6grPnJDDH9f8gEy5ULYxS9tVvB5EsD8kza1eD1SX9FksMP8FV8G25hHJOKq7JpNS_94ww" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="" data-current-org="" data-current-owner="" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center tmp-mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -438,7 +438,7 @@
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-94c26444-dd0a-4dcb-a33a-7398e68844da" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-f46e2855-2192-4894-b47f-90eaa10da122" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -679,7 +679,7 @@
             ></ul>
 
         </div>
-      <div class="FormControl-inlineValidation" id="validation-94c26444-dd0a-4dcb-a33a-7398e68844da" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-f46e2855-2192-4894-b47f-90eaa10da122" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -720,7 +720,7 @@
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="M6j-5zzLgW9-6LzdHhiKvoNfPCyXfxj-vGLk2L8v3wcmqD8hgJfLzto8pvHIbjEnyppk4TCGzRshNUZT0_wfsg" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wto8c3jxzUPbiJ3DOTIlBm8vvHhwRS7kWXZtK29I0bNql9UQgBT0Q33FGg5Ts2H5sUuUDk6cmjjSHPaZEFuLkA" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -758,7 +758,7 @@
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4sgNwlP9GJGhFnYOcp5ACuHixnBlGtbtCUosFjsDXmPF0LoQt4aYe4GHLGM7BeGtY_QFlZ96RW2aufBe8-x2TA" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RN_fEbO5dA4m0-LWbEJLfvh4Iq6auxEMmoJ1pxH6xaSMeaOxJc8WETv5l3CSXGpjVrhTh4lkyUZUqXVuFV6rRg" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -776,7 +776,7 @@
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" value="qkIU-L67Am3IZwDpHXbH8hFXUUnJaxAfqDW8Nl3_O8eWg3xFzB3nbT3QU37f-vQ02EV3HvkzfV1cFZ6ShaV6Ug" data-csrf="true" />
+              <input type="hidden" value="RQ1jxgJkIawf2IpobNgBGvlXQrAu9R6cePDagT6vxaGCS0N-SrfFro5JNkbYUpmlmp1gs-jq3KGsl_zKjVSteQ" data-csrf="true" />
             </auto-check>
           </div>
 
@@ -818,10 +818,10 @@
 
             <div class="position-relative HeaderMenu-link-wrap d-lg-inline-block">
               <a
-                href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.mp3"
+                href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.wav"
                 class="HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1"
                 style="margin-left: 12px;"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f7f77dae44de4b498b47ebd6d072c3dff1d5db9344a0158031ea8f4980166eca"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0d7749d0b43dbe7b692ecbfb3a9026109e7ad640ba9c17d00922343817f0f535"
                 data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
               >
                 Sign in
@@ -831,7 +831,7 @@
     <h4 data-view-component="true" class="color-fg-default mb-2">                    Sign in to GitHub
 </h4>
                         
-<!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0M7IGpg-L1ZdtVI329nc5TsWJ8RRQ3c7oLND_Jw7IzrIagEhLoF1PjNQc4lnkpYwJxV1kR9IBao8Si2iDV0IlQ" />  <input type="hidden" name="add_account" id="add_account" autocomplete="off" class="form-control" />
+<!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/session" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5-WWeh1JeMDNrRyzjM5G_7kMWSxDyqfwNeWpkLD5utFoQ9J9X0MtkKeaXqWcwvOq-P9SfOGNbkR2eDxTNDkiwQ" />  <input type="hidden" name="add_account" id="add_account" autocomplete="off" class="form-control" />
 
     <label for="login_field">
       Username or email address
@@ -849,17 +849,17 @@
 <input type="hidden" class="js-support" name="javascript-support" value="unknown">
 <input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
 <input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
-<input type="hidden" name="return_to" id="return_to" value="https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3" autocomplete="off" class="form-control" />
+<input type="hidden" name="return_to" id="return_to" value="https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav" autocomplete="off" class="form-control" />
 <input type="hidden" name="allow_signup" id="allow_signup" autocomplete="off" class="form-control" />
 <input type="hidden" name="client_id" id="client_id" autocomplete="off" class="form-control" />
 <input type="hidden" name="integration" id="integration" autocomplete="off" class="form-control" />
-<input type="text" name="required_field_36df" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1773654661302" autocomplete="off" class="form-control" /><input type="hidden" name="timestamp_secret" value="c91577ad95d007c53ef4cccf5fdd73808d9710e2d6e34e5ecdd9b30fde045c5d" autocomplete="off" class="form-control" />
+<input type="text" name="required_field_6c19" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1773655770629" autocomplete="off" class="form-control" /><input type="hidden" name="timestamp_secret" value="d4208949469e7de8519fe9ec224f36d36271f27357f689c25d51a70429fbd363" autocomplete="off" class="form-control" />
 
     <input type="submit" name="commit" value="Sign in" class="btn btn-primary btn-block js-sign-in-button" data-disable-with="Signing in…" data-signin-label="Sign in" data-sso-label="Sign in with your identity provider" development="false" disable-emu-sso="false" />
   </div>
 </form>  <webauthn-status class="js-webauthn-login-emu-control">
         <div data-target="webauthn-status.partial" class="d-flex flex-justify-between flex-column tmp-mt-3 mb-0" hidden>
-          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.mp3" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">
+          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.wav" data-analytics-event="{&quot;category&quot;:&quot;passkey_404_login&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:null}" data-view-component="true" class="Button--link Button--medium Button">  <span class="Button-content">
     <span class="Button-label">or continue with other methods</span>
   </span>
 </a>
@@ -869,20 +869,20 @@
 
 </div></div>            </div>
 
-              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.mp3&amp;source=header"
+              <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2Fthe-muda-organization%2FMuda-CLI%2Fraw%2Fmaster%2Fassets%2Faudio%2Fclick.wav&amp;source=header"
                 class="HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="f7f77dae44de4b498b47ebd6d072c3dff1d5db9344a0158031ea8f4980166eca"
-                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.mp3;ref_cta:Sign up;ref_loc:header logged out&quot;}"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0d7749d0b43dbe7b692ecbfb3a9026109e7ad640ba9c17d00922343817f0f535"
+                data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/the-muda-organization/Muda-CLI/raw/master/assets/audio/click.wav;ref_cta:Sign up;ref_loc:header logged out&quot;}"
               >
                 Sign up
               </a>
 
                 <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-e9e58b4d-9df0-4f56-8f01-0fe970610d89" aria-labelledby="tooltip-d22284b7-d956-485d-add6-be49070a4819" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-c55a3a92-24a6-4bf4-b1d0-757ed84eab92" aria-labelledby="tooltip-ba72eeb5-1667-47d0-8ed9-355a4a14b0c7" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-d22284b7-d956-485d-add6-be49070a4819" for="icon-button-e9e58b4d-9df0-4f56-8f01-0fe970610d89" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-ba72eeb5-1667-47d0-8ed9-355a4a14b0c7" for="icon-button-c55a3a92-24a6-4bf4-b1d0-757ed84eab92" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react-css.31c3d131c6277e78.module.css" />
@@ -920,10 +920,10 @@
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-e6d90afa-b6f4-4526-8878-1f4fde100c8c" aria-labelledby="tooltip-f4445b70-35c9-49b8-adf9-a9e155b0b28d" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-801f7b34-ec78-4b20-a951-2a7a88bad413" aria-labelledby="tooltip-bc643986-e7e6-4873-9af8-930cdc9f76ec" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-f4445b70-35c9-49b8-adf9-a9e155b0b28d" for="icon-button-e6d90afa-b6f4-4526-8878-1f4fde100c8c" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-bc643986-e7e6-4873-9af8-930cdc9f76ec" for="icon-button-801f7b34-ec78-4b20-a951-2a7a88bad413" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   
