@@ -1138,6 +1138,39 @@ section {
     color: var(--text-secondary);
     font-size: 15px;
     line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.timeline-link {
+    display: inline-block;
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s var(--ease-smooth);
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.timeline-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--accent-gold);
+    transition: width 0.3s;
+}
+
+.timeline-link:hover {
+    color: var(--text-primary);
+}
+
+.timeline-link:hover::after {
+    width: 100%;
 }
 
 /* === Mobile Menu Overlay === */
