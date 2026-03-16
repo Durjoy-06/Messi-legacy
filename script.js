@@ -53,33 +53,41 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // === Interactive UI Sounds (Robust Implementation) ===
+    // === Interactive UI Sounds (Diagnostic Implementation) ===
+    console.log('Initializing UI Sound System...');
     const clickSound = new Audio('click.mp3');
-    clickSound.volume = 0.8; // Increased from 0.4 for better visibility
+    clickSound.preload = 'auto';
+    clickSound.volume = 0.9; 
     let isAudioUnlocked = false;
+
+    // Diagnostic event to check if file even loads
+    clickSound.addEventListener('canplaythrough', () => console.log('✅ click.mp3 loaded and ready'));
+    clickSound.addEventListener('error', (e) => console.error('❌ click.mp3 failed to load:', e));
 
     const playClick = () => {
         if (!clickSound) return;
+        console.log('Attempting to play click sound...');
         clickSound.currentTime = 0;
-        clickSound.play().catch(err => {
-            console.warn('Audio play failed:', err);
-        });
+        clickSound.play()
+            .then(() => console.log('🔊 Sound played successfully'))
+            .catch(err => console.warn('🔇 Audio play failed:', err));
     };
 
     // Unlock audio context on first user interaction
     const unlockAudio = () => {
         if (isAudioUnlocked) return;
+        console.log('Unlocking audio context via interaction...');
         clickSound.play()
             .then(() => {
                 clickSound.pause();
                 clickSound.currentTime = 0;
                 isAudioUnlocked = true;
-                // Once unlocked, we can remove the listeners
+                console.log('🔓 Audio context unlocked');
                 document.removeEventListener('mousedown', unlockAudio);
                 document.removeEventListener('touchstart', unlockAudio);
                 document.removeEventListener('keydown', unlockAudio);
             })
-            .catch(err => console.log('Unlock failed:', err));
+            .catch(err => console.log('Unlock failed (needs direct user gesture):', err));
     };
 
     document.addEventListener('mousedown', unlockAudio);
@@ -88,8 +96,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Global delegation for interactive elements
     document.addEventListener('click', (e) => {
-        const target = e.target.closest('button, a, .gallery-item, .timeline-item, .mobile-toggle, .stat-card, .p-dot, .cta-btn, .bio-image');
+        const target = e.target.closest('button, a, .gallery-item, .timeline-item, .mobile-toggle, .stat-card, .p-dot, .cta-btn, .bio-image, .nav-link');
         if (target) {
+            console.log('Click detected on:', target.tagName || target.className);
             playClick();
         }
     });
