@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // === Interactive UI Sounds ===
-    const clickSound = new Audio('click.wav');
+    const clickSound = new Audio('click-on-mouse.wav');
     clickSound.preload = 'auto';
     clickSound.volume = 0.8; 
     let isAudioUnlocked = false;
